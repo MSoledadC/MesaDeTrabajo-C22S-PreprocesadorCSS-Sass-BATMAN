@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #005677;
+    background-color: #C4C4C4;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.sinPuntos li {
+    list-style-type: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #005677;
+    color: #FFFFFF;
+}
+
+footer span {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 85%;
+}
+
+
+/*   */

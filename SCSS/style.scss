@@ -1,0 +1,77 @@
+$color-primary: #005677;
+$color-bg-header: #c4c4c4;
+$color-text-footer: #ffffff;
+$font: "Times New Roman", Times, serif;
+
+/*  SAAS */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  font-style: italic;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #005677;
+    background-color: #c4c4c4;
+    margin-bottom: 60px;
+  }
+
+  section {
+    margin-bottom: 15px;
+    div {
+      h2 {
+        font-weight: 700;
+        font-size: 20px;
+        background-color: $color-bg-header;
+        color: $color-primary;
+        margin-bottom: 15px;
+        padding-left: 10px;
+      }
+    }
+
+    ul {
+      margin-left: 25px;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+.sinPuntos li {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+footer {
+  text-align: center;
+  background-color: $color-primary;
+  color: $color-text-footer;
+  padding: 5px;
+
+  span {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 85%;
+  }
+
+  img {
+    width: 14px;
+    height: 14px;
+  }
+}
