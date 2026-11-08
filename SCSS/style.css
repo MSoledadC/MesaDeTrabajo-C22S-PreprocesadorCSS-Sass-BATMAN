@@ -38,6 +38,9 @@ main section ul {
 main section span {
   font-weight: bold;
 }
+main .DatosPersonales {
+  margin-left: 35px;
+}
 
 .sinPuntos li {
   list-style-type: none;
